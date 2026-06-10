@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hemant Bhatta — Portfolio</title>
+    <meta name="description" content="Hemant Bhatta — student at Jeju Tourism University (Entrepreneurship & Marketing). Portfolio showcasing branding, marketing plans, and creative projects." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated background -->
+    <div class="bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <header id="home" class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="assets/hemant-bhatta-avatar.jpg" alt="Hemant avatar" class="header-avatar" onerror="this.src='HemantBhatta.jpg'" />
+          <div class="title-wrap">
+              <h1 class="name">Hemant Bhatta</h1>
+              <p class="tagline">Entrepreneurship & Marketing</p>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger" aria-label="Open menu" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container main-grid">
+
+      <!-- Hero Section Introduction -->
+      <section class="hero scroll-reveal" style="padding: 40px 0 80px 0;">
+        <h2 style="font-size: 4rem; line-height: 1.1; margin-bottom: 24px; letter-spacing: -0.03em;">Crafting Digital <br><span style="background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Experiences</span></h2>
+        <p class="muted" style="font-size: 1.25rem; max-width: 600px; margin-bottom: 40px; line-height: 1.7;">
+          I'm a student at Jeju Tourism University specializing in Entrepreneurship & Marketing. I build strategic marketing plans and conceptual brand identities that drive real impact.
+        </p>
+        <div style="display: flex; gap: 16px; align-items: center;">
+          <a href="work.html" style="padding: 16px 32px; border-radius: 12px; background: rgba(255,255,255,0.08); color: var(--text-main); text-decoration: none; border: 1px solid rgba(255,255,255,0.15); font-weight: 600; font-family: var(--font-heading); font-size: 1.1rem; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.08)'">Explore My Work</a>
+          <a href="contact.html" style="padding: 16px 24px; color: var(--text-muted); text-decoration: none; font-weight: 500; font-family: var(--font-heading); font-size: 1.1rem; transition: color 0.3s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--text-muted)'">Get in Touch &rarr;</a>
+        </div>
+      </section>
+
+      <!-- Expertise Section -->
+      <section class="expertise scroll-reveal">
+        <h3 style="font-size: 2rem; margin-bottom: 32px; letter-spacing: -0.02em;">What I Do</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+          <div style="background: var(--card-bg); backdrop-filter: blur(20px); border: 1px solid var(--card-border); padding: 32px; border-radius: 20px;">
+            <h4 style="font-size: 1.25rem; margin-bottom: 12px; color: var(--text-main);">Brand Strategy</h4>
+            <p class="muted" style="font-size: 0.95rem;">Building cohesive brand identities that resonate with target audiences and stand out in competitive markets.</p>
+          </div>
+          <div style="background: var(--card-bg); backdrop-filter: blur(20px); border: 1px solid var(--card-border); padding: 32px; border-radius: 20px;">
+            <h4 style="font-size: 1.25rem; margin-bottom: 12px; color: var(--text-main);">Digital Marketing</h4>
+            <p class="muted" style="font-size: 0.95rem;">Executing data-driven marketing campaigns focusing on SEO, social media, and customer acquisition.</p>
+          </div>
+          <div style="background: var(--card-bg); backdrop-filter: blur(20px); border: 1px solid var(--card-border); padding: 32px; border-radius: 20px;">
+            <h4 style="font-size: 1.25rem; margin-bottom: 12px; color: var(--text-main);">Analytics & Insights</h4>
+            <p class="muted" style="font-size: 0.95rem;">Leveraging performance metrics to optimize ROI and guide future business decisions.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Project -->
+      <section class="featured scroll-reveal" style="margin-top: 40px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 32px;">
+          <h3 style="font-size: 2rem; letter-spacing: -0.02em; margin: 0;">Featured Project</h3>
+          <a href="work.html" style="color: var(--text-muted); text-decoration: none; font-weight: 500; font-size: 0.95rem;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--text-muted)'">View all work</a>
+        </div>
+        
+        <a href="brand-concept.html" class="card" style="text-decoration: none; color: inherit; display: block; max-width: 800px;">
+          <div class="card-img-wrap" style="height: 350px;">
+            <img src="assets/brand.png" alt="Brand Concept Project" onerror="this.src='https://via.placeholder.com/800x400/111827/3b82f6?text=Brand+Concept'" />
+          </div>
+          <div class="card-content" style="padding: 32px;">
+            <h3 style="font-size: 1.75rem; margin-bottom: 12px;">Tourism Brand Concept</h3>
+            <p class="muted" style="font-size: 1.1rem;">Conceptual brand work focused on tourism experiences, local markets, and modern aesthetics.</p>
+          </div>
+        </a>
+      </section>
+
+
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Hemant Bhatta. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Marketing Plan — Hemant Bhatta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated background -->
+    <div class="bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <header id="home" class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="assets/hemant-bhatta-avatar.jpg" alt="Hemant avatar" class="header-avatar" onerror="this.src='HemantBhatta.jpg'" />
+          <div class="title-wrap">
+              <h1 class="name">Hemant Bhatta</h1>
+              <p class="tagline">Entrepreneurship & Marketing</p>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container main-grid" style="gap: 40px;">
+      <a href="index.html" class="muted" style="text-decoration: none; display: inline-block;">&larr; Back to Portfolio</a>
+      
+      <section class="scroll-reveal">
+        <div style="width: 100%; height: 400px; overflow: hidden; border-radius: 20px; border: 1px solid var(--card-border); margin-bottom: 32px;">
+          <img src="assets/marketing.png" alt="Marketing Plan" style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(10%);" />
+        </div>
+        
+        <h2>Digital Marketing Plan</h2>
+        <div style="display: flex; gap: 12px; margin-bottom: 24px;">
+          <span style="background: rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 20px; font-size: 13px;">Marketing</span>
+          <span style="background: rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 20px; font-size: 13px;">Analytics</span>
+          <span style="background: rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 20px; font-size: 13px;">SEO</span>
+        </div>
+        
+        <div style="background: var(--card-bg); backdrop-filter: blur(20px); border: 1px solid var(--card-border); padding: 32px; border-radius: 20px; color: var(--text-muted); line-height: 1.8;">
+          <h3 style="color: var(--text-main);">Project Overview</h3>
+          <p style="margin-bottom: 24px;">A comprehensive, data-driven marketing plan designed for local enterprises aiming to boost their digital footprint. This project involves analyzing current market trends and implementing high-ROI digital campaigns.</p>
+          
+          <h3 style="color: var(--text-main);">Target Audience & KPIs</h3>
+          <p style="margin-bottom: 24px;">The core demographic targeted were young adults (18-35) interested in lifestyle and tourism. Key Performance Indicators (KPIs) included Customer Acquisition Cost (CAC), conversion rates, and organic traffic growth over a 6-month period.</p>
+          
+          <h3 style="color: var(--text-main);">Execution Strategy</h3>
+          <p>The execution heavily relied on targeted ad campaigns across social platforms, coupled with an aggressive SEO content strategy. Advanced analytics dashboards were created to track real-time performance and optimize ad spend efficiently.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Hemant Bhatta. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

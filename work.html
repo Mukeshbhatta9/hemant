@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Work — Hemant Bhatta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated background -->
+    <div class="bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <header id="home" class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="assets/hemant-bhatta-avatar.jpg" alt="Hemant avatar" class="header-avatar" onerror="this.src='HemantBhatta.jpg'" />
+          <div class="title-wrap">
+              <h1 class="name">Hemant Bhatta</h1>
+              <p class="tagline">Entrepreneurship & Marketing</p>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger" aria-label="Open menu" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container main-grid">
+      <section class="work scroll-reveal" aria-labelledby="work-heading">
+        <h2 id="work-heading">Selected Work</h2>
+        <p class="muted">Explore some of my recent branding projects and strategic campaigns.</p>
+        
+        <div class="cards">
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="assets/universityphoto1.png" alt="University Project 1" />
+            </div>
+            <div class="card-content">
+              <h3>Tourism Study</h3>
+              <p class="muted">Research and analysis project conducted at Jeju Tourism University.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="assets/universityphoto2.jpg" alt="University Project 2" />
+            </div>
+            <div class="card-content">
+              <h3>Campus Campaign</h3>
+              <p class="muted">Marketing campaign strategies developed for campus organizations.</p>
+            </div>
+          </article>
+
+          <a href="brand-concept.html" class="card" style="text-decoration: none; color: inherit;">
+            <div class="card-img-wrap">
+              <img src="assets/brand.png" alt="Brand Concept Project" onerror="this.src='https://via.placeholder.com/600x400/111827/3b82f6?text=Brand+Concept'" />
+            </div>
+            <div class="card-content">
+              <h3>Brand Concept</h3>
+              <p class="muted">Conceptual brand work focused on tourism experiences, local markets, and modern aesthetics.</p>
+            </div>
+          </a>
+          
+          <a href="marketing-plan.html" class="card" style="text-decoration: none; color: inherit;">
+            <div class="card-img-wrap">
+              <img src="assets/marketing.png" alt="Marketing Plan Project" onerror="this.src='https://via.placeholder.com/600x400/111827/8b5cf6?text=Marketing+Plan'" />
+            </div>
+            <div class="card-content">
+              <h3>Marketing Plan</h3>
+              <p class="muted">Strategic plans for small businesses and events with measurable goals and analytics tracking.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Hemant Bhatta. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
